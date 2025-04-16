@@ -1,68 +1,46 @@
 {
-	"workbench.iconTheme": "vscode-icons",
-	"liveServer.settings.donotShowInfoMsg": true,
-	"[python]": {
-		"editor.formatOnType": true
-	},
-	"python.defaultInterpreterPath": "C:\\Users\\User\\anaconda3\\python.exe",
-	"vim.smartRelativeLine": true,
-	"extensions.experimental.affinity": {
-		"asvetliakov.vscode-neovim": 1
-	},
-	"editor.lineNumbers": "relative",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"window.zoomLevel": -1,
-	"vim.handleKeys": {
-		"<C-d>": true,
-		"<C-s>": false
-	},
-	"vim.normalModeKeyBindingsNonRecursive": [
-		{
-			"before": ["p"],
-			"after": ["\"", "+", "p"]
-		},
+  "vscode-pets.theme": "winter",
+  "editor.lineNumbers": "relative",
+  "vim.useSystemClipboard": true,
+  "vim.commandLineModeKeyBindings": [],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - Page",
+    "**/app/**/layout.tsx": "${dirname} - Layout",
+    "**/app/api/**/route.ts": "${dirname} - Route",
+    "**/components/**/index.tsx": "${dirname} - Component",
+    "**/components/**/**.tsx": "${filename} - Component"
+  },
+  "editor.cursorWidth": 2,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.list.smoothScrolling": true,
+  "workbench.colorTheme": "Bearded Theme HC Ebony",
 
-		{
-			"before": ["P"],
-			"after": ["p"]
-		}
-	],
-	"vim.useSystemClipboard": true,
-	"vim.normalModeKeyBindings": [],
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false,
-		"java": false,
-		"python": true
-	},
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
-	"editor.linkedEditing": true,
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"workbench.editor.customLabels.patterns": {
-		"**/app/**/page.tsx": "${dirname} - Page",
-		"**/app/**/layout.tsx": "${dirname} - Layout",
-		"**/app/api/**/route.ts": "${dirname} - Route",
-		"**/components/**/index.tsx": "${dirname} - Component",
-		"**/components/**/**.tsx": "${filename} - Component"
-	},
-	"editor.smoothScrolling": true,
-	"editor.cursorSmoothCaretAnimation": "on",
-	"editor.fontLigatures": true,
-	"editor.fontFamily": "Cascadia Code",
-	"workbench.colorTheme": "Bearded Theme Black & Diamond",
-	"workbench.list.smoothScrolling": true,
-	"editor.cursorBlinking": "phase",
-	"prettier.useTabs": true,
-	"azureResourceGroups.selectedSubscriptions": [],
-	"prisma.showPrismaDataPlatformNotification": false,
-	"github.copilot.editor.enableAutoCompletions": true,
-	"dart.flutterSdkPath": "E:\\Flutter\\flutter",
-	"dart.debugExternalPackageLibraries": false,
-	"dart.debugSdkLibraries": false
+  "terminal.integrated.smoothScrolling": true,
+  "redhat.telemetry.enabled": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "vim.highlightedyank.enable": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSaveDelay": 4000,
+  "files.autoSave": "afterDelay",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
